@@ -836,8 +836,17 @@ button:hover:not(:disabled) {
   .contact div h1, .contact div p, .contacting{
     display: none;
   }
-  .Divisions{
-    gap: 50px;
+  .divisions{
+    display: flex;
+    flex-direction: row;
+    transform: none;
+  }
+}
+@media (max-width: 768px) { /* Adjust the breakpoint if necessary */
+  .Divisions {
+    gap: 30px;
+    transform: translateY(0); /* Reset the translate for mobile */
+    padding: 10px;
   }
 }
 .aboutstyle{
