@@ -327,6 +327,7 @@ display: flex;
 .form-group label {
   width: 47%;
   display: block;
+  text-align: justify;
   color: #D6A690;
   font-size: 1.3rem;
 }
@@ -342,11 +343,12 @@ display: flex;
 
 .form-group.upload {
   display: flex;
-  justify-content: space-between;
+  text-align: justify;
 }
 
 .form-group.upload input {
   width: 100%;
+  height: auto;
 }
 
 .form-button {
@@ -703,7 +705,7 @@ button:hover:not(:disabled) {
   .newtieup{
     gap: 20px;
     flex-direction: column;
-    height: 90vh;
+    height: 80vh;
   }
   .fashion{
     font-size: 2rem;
@@ -841,10 +843,13 @@ button:hover:not(:disabled) {
     flex-direction: row;
     transform: none;
   }
+  .Divisionst{
+    margin: 10px;
+    gap: 15vw;
+  }
 }
 @media (max-width: 768px) { /* Adjust the breakpoint if necessary */
-  .Divisions {
-    gap: 30px;
+  .Divisionst {
     transform: translateY(0); /* Reset the translate for mobile */
     padding: 10px;
   }
@@ -909,10 +914,10 @@ button:hover:not(:disabled) {
   }
 }
 
-.Divisions{
+.Divisionst{
   display: flex;
   flex-direction: row;
-  gap: 300px;
+  gap: 20vw;
   transform: translateY(-50px);
 }
 .menu-toggle{

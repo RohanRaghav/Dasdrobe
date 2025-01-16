@@ -97,7 +97,7 @@ const Blogs = () => {
          &#8594;
         </button>
       </div>
-      <div className="Divisions">
+      <div className="Divisionst">
       <div className="apply">
         Get the app
       </div>
