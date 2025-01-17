@@ -327,7 +327,7 @@ display: flex;
 .form-group label {
   width: 47%;
   display: block;
-  text-align: justify;
+  text-align: left;
   color: #D6A690;
   font-size: 1.3rem;
 }
@@ -627,8 +627,9 @@ button:hover:not(:disabled) {
     text-align: center;
   }
   .form-group input{
-    padding: 5px;
+    padding: 10px;
   }
+  
   .navbar-link{
     padding-right: 40px;
     margin-top: 10px;
@@ -741,7 +742,7 @@ button:hover:not(:disabled) {
     font-weight: 600; /* Semi-bold */
   }
   .form-container {
-    width: 70vw;
+    width: 80vw;
     height: auto;
     text-align: justify;
     padding: 10px;}
@@ -806,6 +807,7 @@ button:hover:not(:disabled) {
   .career{
     height: 30vh;
     width: auto;
+    display: none;
   }
   .sixtys{
     font-size: 1.5rem;

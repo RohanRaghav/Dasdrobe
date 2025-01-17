@@ -55,7 +55,7 @@ const Blogs = () => {
   };
 
   return (
-    <div>
+    <div style={{padding:'20px'}}>
       <div className="blog">
         <div>
       Explore the Latest Fashion, Trends,<br />
